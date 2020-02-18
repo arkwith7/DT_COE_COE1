@@ -1,0 +1,36 @@
+파이썬 활용시 설치 가이드
+
+1.  requirements.txt를 이용 필요 파이썬 패키지 설치
+    pip install -r requirements.txt
+
+2.  PyTorch 딥러닝 프레임워크 설치
+    - https://pytorch.org/get-started/locally/ 로 이동하여 PyTorch Build, Your OS, Package, Language, CUDA 를 자신의 환경에 맞는 것으로 선택하여 나타나는 명령어 사용
+    - 예로 PyTorch Build : Stable (1.4), Your OS : Windows, Package : Pip, Language : Python, CUDA : 10.1 를 선택하면 Run this Command: 란에 아래와 같은 명령어가 나옴.
+    - Run this Command: pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+3. 한글 자연어 처리를 위해 Konlpy를 설치하여 토크나이징 또는 형태소 분석등을 해야 할 경우
+    - 먼저 Java가 설치되어 있는지와 JAVA_HOME 시스템 변수가 설정되어 있는지 여부 체크하여 설치된 경우 다음 진행하고 설치되지 않았을 경우는 설치후 진행
+    - 커맨드 창에서 pip install JPype1-0.7.1-cp36-cp36m-win_amd64.whl 실행
+    - pip install konlpy
+
+4. 주피터 노트북을 설치
+    - 주피터 노트북을 가상환경에 설치 :
+    pip install ipykernel
+
+    - jupyter notebook에 가상환경 kernel 추가
+    python -m ipykernel install --user --name pytorch_env --display-name "Python_RPA"
+
+    - jupyter notebook실행
+    cd ..\Python_RPA_Study
+    jupyter notebook
+
+    - 브라우져에 활성화된 Jupyter에서 New --> Python_RPA 선택하여 새로운 창 열고 아래 코드 입력으로 CUDA와 PyTorch정상 설치 여부 확인
+    #Tensor 만들어 프린트 해보기
+    from __future__ import print_function
+    import torch
+    
+    x = torch.rand(5, 3)
+    print(x)
+
+    #CUDA 가능 여부 확인
+    torch.cuda.is_available()

@@ -1,0 +1,82 @@
+﻿0. GPU support
+GPU를 활용하기 위해서는 먼저 다음을 필요로 한다.
+
+CUDA 지원 GPU 카드
+NVIDIA GPU 드라이버 384.x 이상 (for CUDA 10.0)
+CUDA Toolkit (현재 CUDA 10.0 지원)
+cuDNN SDK (7.6 이상)
+GPU와 드라이버는 미리 설치해두고, 다음을 진행한다.
+
+아카이브에서 CUDA toolkit 10.0 다운로드 후 설치 https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
+환경 변수에서 CUDA_PATH 확인
+(기본 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0)
+
+
+CUDA toolkit 버전에 맞는 cuDNN 라이브러리 다운로드 및 압축풀기 (Download cuDNN v7.6.2 (July 22, 2019), for CUDA 10.0)
+https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.6.2.24/prod/10.0_20190719/cudnn-10.0-windows10-x64-v7.6.2.24.zip
+압축 해제 3개의 파일을 앞선 CUDA_PATH 경로 내의 동일한 폴더로 이동
+
+    SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;%PATH%
+    SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;%PATH%
+    SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include;%PATH%
+    SET PATH=C:\Users\saint\Machinelearning\cudnn-10.0-windows10-x64-v7.6.1.34\cuda\bin;%PATH%
+    
+1. 가상 환경 만들기
+
+Python 인터프리터를 선택하고 저장할 .\tensorflow_env 디렉터리를 만들어 새로운 가상 환경을 만듭니다.
+virtualenv --system-site-packages -p python ./tensorflow_env
+c:\Users\saint\Machinelearning>virtualenv --system-site-packages -p python ./tensorflow_env
+Running virtualenv with interpreter C:\Users\saint\Anaconda3\python.exe
+Using base prefix 'C:\\Users\\saint\\Anaconda3'
+  No LICENSE.txt / LICENSE found in source
+New python executable in c:\Users\saint\Machinelearning\tensorflow_env\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+
+가상 환경을 활성화합니다.
+C:\Users\saint\Machinelearning> .\tensorflow_env\Scripts\activate
+
+호스트 시스템 설정에 영향을 주지 않고 가상 환경 내에 패키지를 설치합니다. 먼저 pip를 업그레이드합니다.
+(tensorflow_env) C:\Users\saint\Machinelearning>pip install --upgrade pip
+Requirement already up-to-date: pip in c:\users\saint\machinelearning\tensorflow_env\lib\site-packages (19.2.1)
+
+    pip list  # show packages installed within the virtual environment
+    
+2. TensorFlow pip 패키지 설치
+
+tensorflow-gpu - GPU를 지원하는 안정적인 최신 출시(Ubuntu 및 Windows)
+(tensorflow_env) C:\Users\saint\Machinelearning>pip install --upgrade tensorflow-gpu
+Collecting tensorflow-gpu
+....
+
+설치를 확인합니다.    
+python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+python -c "import tensorflow as tf; tf.enable_eager_execution();  print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
+3. 설치획인
+- 주피터 노트북을 가상환경에서도 이용 할 수 있도록 설치
+1). 가상환경에서 jupyter notebook 설치
+pip install ipykernel
+(tensorflow_env) C:\Users\saint\Machinelearning>pip install ipykernel
+Collecting ipykernel
+ .....
+
+2). jupyter notebook에 가상환경 kernel 추가
+python -m ipykernel install --user --name tensorflow_env --display-name "TensorFlow"
+(tensorflow_env) C:\Users\saint\Machinelearning>python -m ipykernel install --user --name tensorflow_env --display-name "TensorFlow"
+Installed kernelspec tensorflow_env in C:\Users\saint\AppData\Roaming\jupyter\kernels\tensorflow_env
+
+3). jupyter notebook실행 
+(tensorflow_env) C:\Users\saint\Machinelearning>jupyter notebook
+[I 14:40:52.606 NotebookApp] JupyterLab alpha preview extension loaded from C:\Users\saint\Anaconda3\lib\site-packages\jupyterlab
+JupyterLab v0.27.0
+Known labextensions:
+.......
+
+4). 브라우져에 활성화된 Jupyter에서 New --> PyTorch 선택하여 새로운 창 열고 아래 코드 입력으로 CUDA와 PyTorch정상 설치 여부 확인
+
+import tensorflow as tf
+print(tf.reduce_sum(tf.random.normal([1000, 1000])))
+
+결과===>
+Tensor("Sum_1:0", shape=(), dtype=float32)
+

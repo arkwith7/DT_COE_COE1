@@ -1,0 +1,3 @@
+vCaptchaURL=https://www.phpcaptcha.org/try-securimage/
+vDeathByCaptchaUsername=<username created in deathbycaptcha>
+vDeathByCaptchaPassword=<password set in deathbycaptcha>

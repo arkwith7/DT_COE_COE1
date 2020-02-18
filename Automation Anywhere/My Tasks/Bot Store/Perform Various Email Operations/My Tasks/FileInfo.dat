@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="OutlookV2Mbot_ReadMailSample.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/27/2019 21:30:16</Property>
+      <Property Name="RunDuration">00:00:37</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

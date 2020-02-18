@@ -1,0 +1,111 @@
+﻿1. anaconda 다운로드하고 설치 프로그램 실행 설치
+- 다운로드 url
+https://repo.continuum.io/archive/Anaconda3-5.0.0-Windows-x86_64.exe
+- 윈도우 path설정
+[추가할 경로]
+    C:\Users\phs\Anaconda3
+    C:\Users\phs\Anaconda3\Scripts
+    C:\Users\phs\Anaconda3\Library\bin
+
+2. Install NVIDIA CUDA 10.0
+- 다운로드 url
+https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetworkhttps://developer.nvidia.com/cuda-92-download-archive?target_os=Windows&target_arch=x86_64&target_version=10
+- cuda 10 설치
+- 설치확인
+C:\Users\saint\Machinelearning>nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2019 NVIDIA Corporation
+Built on Wed_Apr_24_19:11:20_Pacific_Daylight_Time_2019
+Cuda compilation tools, release 10.1, V10.1.168
+
+3. 파이썬 가상환경 만들기
+- virtualenv 설치여부 확인하여 미설치시 설치
+pip3 virtualenv
+- pytorch_env라는 이름으로 가상환경을 만든다
+C:\Users\saint\Machinelearning>virtualenv pytorch_env
+Using base prefix 'c:\\users\\saint\\anaconda3'
+  No LICENSE.txt / LICENSE found in source
+New python executable in C:\Users\saint\Machinelearning\pytorch_env\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+
+4. PyTorch설치
+- Pytorch URL로 이동하여 PyTorch Build: Stable (1.2),Your OS: Windows, Package: Pip, Language: Python 3.6, CUDA: 10.0 선택하여 지시에 따름
+https://pytorch.org/get-started/locally/
+
+- 가상디렉터리 환경 활성화
+C:\Users\saint\Machinelearning\pytorch_env\Scripts\activate
+
+- 가상디렉터리 환경 활성화
+C:\Users\saint\Machinelearning\pytorch_env\Scripts\deactivate
+
+-설치 명령어
+
+pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-win_amd64.whl
+(pytorch_env) C:\Users\saint\Machinelearning>pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-win_amd64.whl
+Collecting torch==1.1.0 from https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-win_amd64.whl
+  Using cached https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-win_amd64.whl
+Collecting numpy (from torch==1.1.0)
+  Using cached https://files.pythonhosted.org/packages/b7/c1/a58630a439aa10a285169b4a122bc9f7a9a4392e4ec39602f0a60b2693db/numpy-1.17.0-cp36-cp36m-win_amd64.whl
+Installing collected packages: numpy, torch
+Successfully installed numpy-1.17.0 torch-1.1.0
+
+pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-win_amd64.whl
+(pytorch_env) C:\Users\saint\Machinelearning>pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-win_amd64.whl
+Collecting torchvision==0.3.0 from https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-win_amd64.whl
+  Downloading https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-win_amd64.whl (1.5MB)
+     |████████████████████████████████| 1.5MB ...
+Collecting six (from torchvision==0.3.0)
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Requirement already satisfied: torch>=1.1.0 in c:\users\saint\machinelearning\pytorch_env\lib\site-packages (from torchvision==0.3.0) (1.1.0)
+Collecting pillow>=4.1.1 (from torchvision==0.3.0)
+  Downloading https://files.pythonhosted.org/packages/4e/d9/468422371e6fcf02d6a162ee30db4552221de8b2b3ff837363bf54cbb347/Pillow-6.1.0-cp36-cp36m-win_amd64.whl (2.0MB)
+     |████████████████████████████████| 2.0MB 1.7MB/s
+Requirement already satisfied: numpy in c:\users\saint\machinelearning\pytorch_env\lib\site-packages (from torchvision==0.3.0) (1.17.0)
+Installing collected packages: six, pillow, torchvision
+Successfully installed pillow-6.1.0 six-1.12.0 torchvision-0.3.0
+
+5. 설치획인
+- 주피터 노트북을 가상환경에서도 이용 할 수 있도록 설치
+1). 가상환경에서 jupyter notebook 설치
+pip3 install ipykernel
+(pytorch_env) C:\Users\saint\Machinelearning>pip3 install ipykernel
+Collecting ipykernel
+.....
+
+2). jupyter notebook에 가상환경 kernel 추가
+ - kernel 확인
+다음 명령어를 사용하면 현재 kernel에 대해 알 수 있다. 
+jupyter kernelspec list
+ - kernel 추가
+python -m ipykernel install --user --name pytorch_env --display-name "PyTorch"
+(pytorch_env) C:\Users\saint\Machinelearning>python -m ipykernel install --user --name pytorch_env --display-name "PyTorch"
+Installed kernelspec pytorch_env in C:\Users\saint\AppData\Roaming\jupyter\kernels\pytorch_env
+
+3). jupyter notebook실행 
+(pytorch_env) C:\Users\saint\Machinelearning>jupyter notebook
+[I 13:19:28.467 NotebookApp] JupyterLab alpha preview extension loaded from C:\Users\saint\Anaconda3\lib\site-packages\jupyterlab
+JupyterLab v0.27.0
+.......
+
+4). 브라우져에 활성화된 Jupyter에서 New --> PyTorch 선택하여 새로운 창 열고 아래 코드 입력으로 CUDA와 PyTorch정상 설치 여부 확인
+
+from __future__ import print_function
+import torch
+x = torch.rand(5, 3)
+print(x)
+
+결과===>
+tensor([[0.4675, 0.1191, 0.7118],
+        [0.5141, 0.2656, 0.0490],
+        [0.9313, 0.2112, 0.0041],
+        [0.6705, 0.4515, 0.7429],
+        [0.8140, 0.3086, 0.9009]])
+
+import torch
+torch.cuda.is_available()
+
+결과===>
+True
+
+

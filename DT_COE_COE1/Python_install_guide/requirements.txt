@@ -1,0 +1,22 @@
+# Web Scraping
+beautifulsoup4
+lxml
+urllib3
+requests
+selenium
+pyperclip
+# Image and Text Data Analytics & Visibility
+matplotlib
+Pillow
+opencv-contrib-python
+opencv-python
+# Data Analytics
+numpy
+pandas
+scikit-learn
+captcha
+openpyxl
+xlrd
+pytesseract
+# Windows API
+pywin32

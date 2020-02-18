@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <Editor>
+    <trialversion>
+      <showgettingstarted>TRUE</showgettingstarted>
+    </trialversion>
+    <systemvariable>
+      <customdateformat>mm/dd/yyyy HH:mm:ss</customdateformat>
+      <frmietoolbartop>780</frmietoolbartop>
+    </systemvariable>
+    <snapimageview>
+      <location>
+        <top>312</top>
+        <left>797</left>
+      </location>
+    </snapimageview>
+  </Editor>
+  <EventWatcher>
+    <options>
+      <showwatcherui>false</showwatcherui>
+      <enabletriggers>true</enabletriggers>
+      <enableschedules>true</enableschedules>
+      <enablehotkeys>true</enablehotkeys>
+      <autostart>true</autostart>
+      <maxitemsinlist>10</maxitemsinlist>
+      <logfilename>Automation.EventWatcherLibrary.Library.log</logfilename>
+    </options>
+  </EventWatcher>
+  <Main>
+    <general>
+      <roival>50</roival>
+      <roi>Reset</roi>
+      <iedialogconfirmation>0</iedialogconfirmation>
+      <information>False</information>
+      <frmietoolbarleft>1126</frmietoolbarleft>
+      <frmietoolbartop>764</frmietoolbartop>
+      <defaultrecorder>2</defaultrecorder>
+    </general>
+    <startuppages>
+      <frmietoolbarleft>1279</frmietoolbarleft>
+      <showgettingstarted>true</showgettingstarted>
+    </startuppages>
+    <options>
+      <activedirectory>
+        <servername>
+        </servername>
+        <domain>
+        </domain>
+        <loginname>
+        </loginname>
+        <password>
+        </password>
+      </activedirectory>
+      <advancedsettings>
+        <ietimeoutvalue>240</ietimeoutvalue>
+        <editondoubleclick>0</editondoubleclick>
+        <recordmousemove>1</recordmousemove>
+        <recordmouseclicks>1</recordmouseclicks>
+        <recordkeystrokes>1</recordkeystrokes>
+        <capturescreenshotrecord>1</capturescreenshotrecord>
+        <capturescreenshotplay>0</capturescreenshotplay>
+        <enablelogging>1</enablelogging>
+        <ietimeoutcheck>1</ietimeoutcheck>
+        <applicationpath>C:\Users\saint\Documents\Automation Anywhere Files</applicationpath>
+        <proxyhostname>
+        </proxyhostname>
+        <proxyportnumber>
+        </proxyportnumber>
+      </advancedsettings>
+      <runtimesettings>
+        <capturescreenshotplay>0</capturescreenshotplay>
+        <ietimeoutvalue>240</ietimeoutvalue>
+        <runtaskasadmin>1</runtaskasadmin>
+        <startuppathtoplaytask>C:\Users\saint\Documents\Automation Anywhere Files</startuppathtoplaytask>
+        <startuppathtoplaytaskcheck>0</startuppathtoplaytaskcheck>
+      </runtimesettings>
+      <clientsettings>
+        <clientport>8001</clientport>
+        <playerport>8060</playerport>
+      </clientsettings>
+      <hotkey>
+        <start>Ctrl + Alt + R</start>
+        <stop>Ctrl + Alt + S</stop>
+        <taskstop>Esc</taskstop>
+      </hotkey>
+      <roi>
+        <warning>False</warning>
+        <roival>50</roival>
+      </roi>
+      <serversettings>
+        <ipaddress>localhost</ipaddress>
+        <serverport>9993</serverport>
+        <restserviceurl>http://desktop-jbjd7j5/</restserviceurl>
+        <isadon>False</isadon>
+        <authenticationtype>DATABASE</authenticationtype>
+      </serversettings>
+      <view>
+        <showintro>1</showintro>
+        <runtimewin>1</runtimewin>
+        <quewin>0</quewin>
+        <showerror>1</showerror>
+        <queuewin>0</queuewin>
+      </view>
+      <emailnotification>
+        <to>&lt;to-email-address&gt;</to>
+        <from>&lt;from-email-address&gt;</from>
+        <bcc>
+        </bcc>
+        <cc>
+        </cc>
+        <bodytemplatemessage>Message from Automation Anywhere.
+
+Task Name : &lt;taskname&gt;
+
+Description : &lt;desc&gt;
+
+Repeat : &lt;repeat&gt;
+
+Status: &lt;status&gt;
+
+Error Message: &lt;errormessage&gt;
+
+Last Run Time: &lt;lastruntime&gt;
+
+</bodytemplatemessage>
+        <subject>Automation Anywhere finished executing the TaskBot</subject>
+      </emailnotification>
+      <metabotlogicemailnotification>
+        <to>&lt;to-email-address&gt;</to>
+        <from>&lt;from-email-address&gt;</from>
+        <bcc>
+        </bcc>
+        <cc>
+        </cc>
+        <bodytemplatemessage>Message from Automation Anywhere.
+
+MetaBot Name : &lt;MetaBotName&gt;
+
+Logic Name: &lt;LogicName&gt;
+
+Logic Status: &lt;LogicStatus&gt;
+
+Error Message: &lt;errormessage&gt;
+
+</bodytemplatemessage>
+        <subject>Automation Anywhere finished executing MetaBot Logic</subject>
+      </metabotlogicemailnotification>
+      <autologin>
+        <autologin>False</autologin>
+        <scheduletask>False</scheduletask>
+        <bypasslegalnotice>False</bypasslegalnotice>
+      </autologin>
+      <emailsettings>
+        <outgoingmailservertype>1</outgoingmailservertype>
+        <domainname>
+        </domainname>
+        <usessl>True</usessl>
+        <showgreenimage>True</showgreenimage>
+      </emailsettings>
+    </options>
+    <webrecorder>
+      <general>
+        <hookscript>0</hookscript>
+        <recordfrommousedown>0</recordfrommousedown>
+        <launchiebyprocess>False</launchiebyprocess>
+      </general>
+      <findbrokenlinks>
+        <parallelthreadcount>10</parallelthreadcount>
+        <timeout>10</timeout>
+      </findbrokenlinks>
+    </webrecorder>
+    <Migration>
+      <login>true</login>
+      <email>true</email>
+      <schedule>true</schedule>
+      <trigger>true</trigger>
+      <version>11.0</version>
+    </Migration>
+    <normalrecorder>
+      <formpostionx>1321</formpostionx>
+      <formpostiony>730</formpostiony>
+    </normalrecorder>
+    <metabot>
+      <recordingoptions>screen</recordingoptions>
+    </metabot>
+  </Main>
+  <Player>
+    <imagerecognition>
+      <sourceimageforir>
+      </sourceimageforir>
+      <checkimageforir>
+      </checkimageforir>
+    </imagerecognition>
+    <commands>
+      <keystroke>
+        <keyupdowndelay>2</keyupdowndelay>
+        <percommanddelay>30</percommanddelay>
+      </keystroke>
+      <terminalemulator>
+        <enablemainframeclientlogs>false</enablemainframeclientlogs>
+      </terminalemulator>
+      <excel>
+        <retainexcelcellrowlegacybehavior>false</retainexcelcellrowlegacybehavior>
+      </excel>
+    </commands>
+    <options>
+      <roilogging>True</roilogging>
+    </options>
+  </Player>
+</configuration>

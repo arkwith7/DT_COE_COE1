@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="R2020010001_main.atmx">
+    <Properties>
+      <Property Name="LastRunTime">02/03/2020 10:35:53</Property>
+      <Property Name="RunDuration">00:00:01</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="R202001001_Template_main.atmx">
+    <Properties>
+      <Property Name="LastRunTime">02/06/2020 09:44:11</Property>
+      <Property Name="RunDuration">00:00:21</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="R202001001_Template_sub01.atmx">
+    <Properties>
+      <Property Name="LastRunTime">02/06/2020 09:47:43</Property>
+      <Property Name="RunDuration">00:00:01</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

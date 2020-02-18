@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="DateTime_Operations-Sample.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/26/2019 09:10:30</Property>
+      <Property Name="RunDuration">00:00:13</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="DateTime_Operations-SampleV0.1.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/18/2019 17:51:20</Property>
+      <Property Name="RunDuration">00:00:42</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>
