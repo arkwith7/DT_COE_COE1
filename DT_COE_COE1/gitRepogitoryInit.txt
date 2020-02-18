@@ -10,3 +10,11 @@ git push -u origin master
 #…or push an existing repository from the command line
 git remote add origin https://github.com/arkwith7/DT_COE_COE1.git
 git push -u origin master
+
+매일 작업시 변경 소스 Local Repository 반영
+git add "변경소스명"
+git commit -m "커밋사유:이슈번호"
+
+변경소스 Local Repository 반영후 remote server Repository에 반영
+git push -u origin master
+
