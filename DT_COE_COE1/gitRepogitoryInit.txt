@@ -18,3 +18,7 @@ git commit -m "커밋사유:이슈번호"
 변경소스 Local Repository 반영후 remote server Repository에 반영
 git push -u origin master
 
+VSCODE 사용시 서버에 반영 절차
+1. Source Control 버튼 클릭하여 CHANGES의 변경파일 목록 확인
+2. 위 Message창에 커밋 메시지 입력 하고 위에 커밋버튼인 체크 아이콘 클릭
+3. Source Control 풀다운 명영어 메뉴에서 Push 선택하여 서버로 전송
