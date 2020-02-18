@@ -42,4 +42,4 @@ python_activate.bat
 ```
 (PYTHON~1) C:\Users\"윈도우 사용자명"\Documents\Automation Anywhere Files>cd DT_COE_COE1\Python_install_guide
 ```
-이동한 디렉토리에서 [Python_Package_Install_Guide.txt](https://github.com/arkwith7/DT_COE_COE1/blob/master/DT_COE_COE1/Python_install_guide/PyTorch%20installation%20guide.txt)파일을 찾고 안의 내용이 안내 하는데로 파이썬 필요 패키지를 설치 한다.
+이동한 디렉토리에서 [Python_Package_Install_Guide.txt](https://github.com/arkwith7/DT_COE_COE1/blob/master/DT_COE_COE1/Python_install_guide/Python_Package_Install_Guide.txt)파일을 찾고 안의 내용이 안내 하는데로 파이썬 필요 패키지를 설치 한다.
