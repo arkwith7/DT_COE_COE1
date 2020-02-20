@@ -14,3 +14,33 @@
 
 ## RPA 발전단계 분류
 ![](00images/RPA발전단계.png)
+
+### Level0(ASSISTING) : 
+ - 사전에 정의된 프로그램에 의해 정해진 작업만 수행
+ - DB 접속 및 데이터 추출
+ - Single Application
+ - Macro Application
+
+### Level1(DOING) : 
+ - 정형화된 규칙 기반의 단순 반복적인 업무 처리
+ - 시스템 간 정형화된 데이터 입출력 업무 처리
+ - 적용 AI 기술
+   - 초보적 수준의 OCR 기술
+
+### Level2(LEARNING) : 
+ - 고차원적 데이터 분석 및 처리
+ - 적용 AI 기술
+   - 이미지 인식 기술
+   - 향상된 OCR 기술
+   - 음성 인식 기술
+   - 자연어 처리 기술
+   - 심층 학습 기술 (Deep Learning)
+   - 강화 학습 기술(Reinforcement Learning)
+
+### Level3(THINKING) : 
+ - 전략, 예산, 경영 의사결정 등 인지적 의사결정
+ - 확률 및 통계 기반 자기학습
+ - 적용 AI 기술
+   - Sensing AI 연계
+   - 분야별 전문가 AI 연계
+   - 다양한 로봇 간 연계
