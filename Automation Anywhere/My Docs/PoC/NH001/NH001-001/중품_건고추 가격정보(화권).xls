@@ -1,0 +1,265 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+	<title>가격정보 - 친환경농산물 - 품목별 엑셀 출력</title>
+	<meta http-equiv="Content-Type" content="application/vnd.ms-excel;charset=utf-8">
+	<style type="text/css">
+		table caption	{ text-align:left; }
+		table th		{ background-color:#eff2f9; }
+		table td		{ mso-number-format:\@; text-align:general; vertical-align:middle; text-align:center; white-space:nowrap; mso-rotate:0; mso-background-source:auto; mso-pattern:auto; color:black; font-size:11.0pt; font-style:normal; text-decoration:none; font-family:"맑은 고딕", monospace; mso-font-charset:129; border:1px; mso-protection:locked visible; mso-style-name:표준; mso-style-id:0; }
+		table td.c		{ text-align:center;}
+		table td.l		{ text-align:left; }
+		table td.r		{ text-align:right; }
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td	class="data">
+				<table id="data" border="1px">
+					
+					<caption></caption>
+					<colgroup><col><col><col><col><col><col><col><col><col><col><col>
+					
+					
+						
+							<tbody><tr>
+								<th class="first" colspan="2" scope="col">구분</th>
+								
+								<th scope="col">1일전<br>02/11</th>
+								<th scope="col">2일전<br>02/10</th>
+								
+								
+								<th scope="col">5일전<br>02/07</th>
+								<th scope="col">6일전<br>02/06</th>
+								<th scope="col">7일전<br>02/05</th>
+								<th scope="col">1개월전</th>
+								<th scope="col">1년전</th>
+								<th class="last" scope="col">평년</th>
+							</tr>
+						
+						
+						
+							<tr class="fwb">
+								<td class="first cell_tit1" colspan="2">평균</td>
+								
+								<td>345,000</td>
+								<td>346,000</td>
+								
+								
+								<td>346,000</td>
+								<td>346,000</td>
+								<td>346,000</td>
+								<td>350,000</td>
+								<td>516,200</td>
+								<td class="last">406,733</td>
+							</tr>
+						
+						
+						
+					
+						
+						
+						
+							<tr class="fwb">
+								<td class="first cell_tit1" colspan="2">최고값</td>
+								
+								<td>400,000</td>
+								<td>400,000</td>
+								
+								
+								<td>400,000</td>
+								<td>400,000</td>
+								<td>400,000</td>
+								<td>400,000</td>
+								<td>600,000</td>
+								<td class="last">425,000</td>
+							</tr>
+						
+						
+						
+					
+						
+						
+						
+							<tr class="fwb">
+								<td class="first cell_tit1" colspan="2">최저값</td>
+								
+								<td>320,000</td>
+								<td>325,000</td>
+								
+								
+								<td>325,000</td>
+								<td>325,000</td>
+								<td>325,000</td>
+								<td>325,000</td>
+								<td>475,000</td>
+								<td class="last">388,667</td>
+							</tr>
+						
+						
+						
+					
+						
+						
+						
+							<tr class="fwb">
+								<td class="first cell_tit1" colspan="2">등락률</td>
+								
+								<td>0.0</td>
+								<td>-0.3</td>
+								
+								
+								<td>-0.3</td>
+								<td>-0.3</td>
+								<td>-0.3</td>
+								<td>-1.4</td>
+								<td>-33.2</td>
+								<td class="last">-15.2</td>
+							</tr>
+						
+						
+						
+					
+						
+						
+						
+						
+						
+							<tr>
+								
+									<td class="first cell_tit1" rowspan="1">서울</td>
+								
+							
+								<td class="cell_tit2">화건</td>
+							
+								
+								<td>400,000</td>
+								<td>400,000</td>
+								
+								
+								<td>400,000</td>
+								<td>400,000</td>
+								<td>400,000</td>
+								<td>400,000</td>
+								<td>600,000</td>
+								<td class="last">420,000</td>
+							</tr>
+						
+					
+						
+						
+						
+						
+						
+							<tr>
+								
+									<td class="first cell_tit1" rowspan="1">부산</td>
+								
+							
+								<td class="cell_tit2">화건</td>
+							
+								
+								<td>355,000</td>
+								<td>330,000</td>
+								
+								
+								<td>330,000</td>
+								<td>330,000</td>
+								<td>330,000</td>
+								<td>350,000</td>
+								<td>550,000</td>
+								<td class="last">425,000</td>
+							</tr>
+						
+					
+						
+						
+						
+						
+						
+							<tr>
+								
+									<td class="first cell_tit1" rowspan="1">대구</td>
+								
+							
+								<td class="cell_tit2">화건</td>
+							
+								
+								<td>325,000</td>
+								<td>325,000</td>
+								
+								
+								<td>325,000</td>
+								<td>325,000</td>
+								<td>325,000</td>
+								<td>325,000</td>
+								<td>475,000</td>
+								<td class="last">391,667</td>
+							</tr>
+						
+					
+						
+						
+						
+						
+						
+							<tr>
+								
+									<td class="first cell_tit1" rowspan="1">광주</td>
+								
+							
+								<td class="cell_tit2">화건</td>
+							
+								
+								<td>325,000</td>
+								<td>325,000</td>
+								
+								
+								<td>325,000</td>
+								<td>325,000</td>
+								<td>325,000</td>
+								<td>325,000</td>
+								<td>-</td>
+								<td class="last">-</td>
+							</tr>
+						
+					
+						
+						
+						
+						
+						
+							<tr>
+								
+									<td class="first cell_tit1" rowspan="1">대전</td>
+								
+							
+								<td class="cell_tit2">화건</td>
+							
+								
+								<td>320,000</td>
+								<td>350,000</td>
+								
+								
+								<td>350,000</td>
+								<td>350,000</td>
+								<td>350,000</td>
+								<td>350,000</td>
+								<td>481,000</td>
+								<td class="last">388,667</td>
+							</tr>
+						
+					
+			
+					
+				</tbody>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
