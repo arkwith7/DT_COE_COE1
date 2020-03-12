@@ -29,13 +29,13 @@
 							<tbody><tr>
 								<th class="first" colspan="2" scope="col">구분</th>
 								
-								<th scope="col">1일전<br>02/11</th>
-								<th scope="col">2일전<br>02/10</th>
+								<th scope="col">1일전<br>03/10</th>
+								<th scope="col">2일전<br>03/09</th>
 								
 								
-								<th scope="col">5일전<br>02/07</th>
-								<th scope="col">6일전<br>02/06</th>
-								<th scope="col">7일전<br>02/05</th>
+								<th scope="col">5일전<br>03/06</th>
+								<th scope="col">6일전<br>03/05</th>
+								<th scope="col">7일전<br>03/04</th>
 								<th scope="col">1개월전</th>
 								<th scope="col">1년전</th>
 								<th class="last" scope="col">평년</th>
@@ -46,16 +46,16 @@
 							<tr class="fwb">
 								<td class="first cell_tit1" colspan="2">평균</td>
 								
-								<td>69,333</td>
-								<td>69,333</td>
+								<td>68,333</td>
+								<td>68,333</td>
 								
 								
-								<td>68,333</td>
-								<td>68,333</td>
-								<td>68,333</td>
-								<td>70,833</td>
-								<td>98,667</td>
-								<td class="last">118,931</td>
+								<td>68,000</td>
+								<td>68,000</td>
+								<td>68,000</td>
+								<td>68,933</td>
+								<td>98,875</td>
+								<td class="last">118,817</td>
 							</tr>
 						
 						
@@ -67,16 +67,16 @@
 							<tr class="fwb">
 								<td class="first cell_tit1" colspan="2">최고값</td>
 								
-								<td>76,000</td>
-								<td>76,000</td>
+								<td>70,000</td>
+								<td>70,000</td>
 								
 								
 								<td>70,000</td>
 								<td>70,000</td>
 								<td>70,000</td>
-								<td>80,000</td>
+								<td>73,600</td>
 								<td>105,000</td>
-								<td class="last">130,000</td>
+								<td class="last">131,867</td>
 							</tr>
 						
 						
@@ -96,8 +96,8 @@
 								<td>65,000</td>
 								<td>65,000</td>
 								<td>65,000</td>
-								<td>90,000</td>
-								<td class="last">107,500</td>
+								<td>91,250</td>
+								<td class="last">108,000</td>
 							</tr>
 						
 						
@@ -113,12 +113,12 @@
 								<td>0.0</td>
 								
 								
-								<td>1.5</td>
-								<td>1.5</td>
-								<td>1.5</td>
-								<td>-2.1</td>
-								<td>-29.7</td>
-								<td class="last">-41.7</td>
+								<td>0.5</td>
+								<td>0.5</td>
+								<td>0.5</td>
+								<td>-0.9</td>
+								<td>-30.9</td>
+								<td class="last">-42.5</td>
 							</tr>
 						
 						
@@ -145,7 +145,7 @@
 								<td>65,000</td>
 								<td>65,000</td>
 								<td>65,000</td>
-								<td>90,000</td>
+								<td>91,250</td>
 								<td class="last">-</td>
 							</tr>
 						
@@ -168,7 +168,7 @@
 								<td>65,000</td>
 								<td>65,000</td>
 								<td>65,000</td>
-								<td>80,000</td>
+								<td>65,000</td>
 								<td>105,000</td>
 								<td class="last">-</td>
 							</tr>
@@ -239,14 +239,14 @@
 								<td class="cell_tit2">깐마늘(대서)</td>
 							
 								
-								<td>76,000</td>
-								<td>76,000</td>
+								<td>70,000</td>
+								<td>70,000</td>
 								
 								
-								<td>70,000</td>
-								<td>70,000</td>
-								<td>70,000</td>
-								<td>70,000</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>73,600</td>
 								<td>-</td>
 								<td class="last">-</td>
 							</tr>

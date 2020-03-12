@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="test.atmx">
+    <Properties>
+      <Property Name="LastRunTime">03/11/2020 10:28:06</Property>
+      <Property Name="RunDuration">00:01:01</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="MiPlatform_Test1.atmx">
+    <Properties>
+      <Property Name="LastRunTime">03/11/2020 12:45:36</Property>
+      <Property Name="RunDuration">00:00:08</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

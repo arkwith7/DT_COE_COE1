@@ -29,13 +29,13 @@
 							<tbody><tr>
 								<th class="first" colspan="2" scope="col">구분</th>
 								
-								<th scope="col">1일전<br>02/11</th>
-								<th scope="col">2일전<br>02/10</th>
+								<th scope="col">1일전<br>03/10</th>
+								<th scope="col">2일전<br>03/09</th>
 								
 								
-								<th scope="col">5일전<br>02/07</th>
-								<th scope="col">6일전<br>02/06</th>
-								<th scope="col">7일전<br>02/05</th>
+								<th scope="col">5일전<br>03/06</th>
+								<th scope="col">6일전<br>03/05</th>
+								<th scope="col">7일전<br>03/04</th>
 								<th scope="col">1개월전</th>
 								<th scope="col">1년전</th>
 								<th class="last" scope="col">평년</th>
@@ -47,15 +47,15 @@
 								<td class="first cell_tit1" colspan="2">평균</td>
 								
 								<td>460,000</td>
-								<td>470,000</td>
+								<td>460,000</td>
 								
 								
-								<td>470,000</td>
-								<td>470,000</td>
-								<td>470,000</td>
-								<td>480,000</td>
-								<td>610,000</td>
-								<td class="last">487,667</td>
+								<td>468,750</td>
+								<td>468,750</td>
+								<td>468,750</td>
+								<td>466,000</td>
+								<td>615,000</td>
+								<td class="last">486,000</td>
 							</tr>
 						
 						
@@ -68,13 +68,13 @@
 								<td class="first cell_tit1" colspan="2">최고값</td>
 								
 								<td>500,000</td>
-								<td>550,000</td>
+								<td>500,000</td>
 								
 								
-								<td>550,000</td>
-								<td>550,000</td>
-								<td>550,000</td>
-								<td>550,000</td>
+								<td>500,000</td>
+								<td>500,000</td>
+								<td>500,000</td>
+								<td>530,000</td>
 								<td>700,000</td>
 								<td class="last">525,000</td>
 							</tr>
@@ -96,8 +96,8 @@
 								<td>425,000</td>
 								<td>425,000</td>
 								<td>425,000</td>
-								<td>525,000</td>
-								<td class="last">450,000</td>
+								<td>550,000</td>
+								<td class="last">441,667</td>
 							</tr>
 						
 						
@@ -110,15 +110,15 @@
 								<td class="first cell_tit1" colspan="2">등락률</td>
 								
 								<td>0.0</td>
-								<td>-2.1</td>
+								<td>0.0</td>
 								
 								
-								<td>-2.1</td>
-								<td>-2.1</td>
-								<td>-2.1</td>
-								<td>-4.2</td>
-								<td>-24.6</td>
-								<td class="last">-5.7</td>
+								<td>-1.9</td>
+								<td>-1.9</td>
+								<td>-1.9</td>
+								<td>-1.3</td>
+								<td>-25.2</td>
+								<td class="last">-5.3</td>
 							</tr>
 						
 						
@@ -170,7 +170,7 @@
 								<td>450,000</td>
 								<td>450,000</td>
 								<td>450,000</td>
-								<td>500,000</td>
+								<td>450,000</td>
 								<td>650,000</td>
 								<td class="last">525,000</td>
 							</tr>
@@ -197,8 +197,8 @@
 								<td>425,000</td>
 								<td>425,000</td>
 								<td>425,000</td>
-								<td>525,000</td>
-								<td class="last">450,000</td>
+								<td>550,000</td>
+								<td class="last">441,667</td>
 							</tr>
 						
 					
@@ -219,9 +219,9 @@
 								<td>425,000</td>
 								
 								
-								<td>425,000</td>
-								<td>425,000</td>
-								<td>425,000</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
 								<td>425,000</td>
 								<td>-</td>
 								<td class="last">-</td>
@@ -242,13 +242,13 @@
 							
 								
 								<td>500,000</td>
-								<td>550,000</td>
+								<td>500,000</td>
 								
 								
-								<td>550,000</td>
-								<td>550,000</td>
-								<td>550,000</td>
-								<td>550,000</td>
+								<td>500,000</td>
+								<td>500,000</td>
+								<td>500,000</td>
+								<td>530,000</td>
 								<td>625,000</td>
 								<td class="last">520,000</td>
 							</tr>

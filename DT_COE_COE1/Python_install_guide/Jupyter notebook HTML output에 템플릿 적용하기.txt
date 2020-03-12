@@ -1,0 +1,29 @@
+Jupyter notebook HTML output에 템플릿 적용하기
+발생일: 2018.09.29
+
+키워드: Jupyter notebook, nbconvert to HTML
+
+문제:
+
+작성한 주피터 노트북을 팀내에 공유하거나 배치로 메일 등으로 발송하게 하려고 한다.
+nbconvert 모듈로 HTML이나 PDF 포맷으로 export 할 수 있다는 건 알고 있다.
+
+$ jupyter nbconvert --to html sample.ipynb --output output.html
+
+이렇게 처리했는데, 생성된 HTML이 정말 못생겼다.
+
+좀 예쁘게 바꾸고 싶은데, 어떻게 하면 될까?
+
+
+해결책:
+
+nbconvert 모듈로 export 할 때, --template 옵션으로 별도의 템플릿을 적용해 출력 형태를 바꿀 수 있다.
+
+$ jupyter nbconvert --to html sample.ipynb --template=basic.tpl --output output.html
+
+템플릿을 적용해 변환하는 것에 대한 설명은 아래 포스트에 쉽게 잘 정리되어 있다.
+https://www.datacamp.com/community/tutorials/jinja2-custom-export-templates-jupyter
+
+
+기본적인 방법은 위 포스트 뿐 아니라 구글링 결과도 많다.
+여기엔 상세하게 스타일을 설정하려고 할 때 참고할 만한 자료에 대해 정리해뒀다.

@@ -1,0 +1,31 @@
+# AA Client 11.3.4.0(Build 19120417)
+vCompanyCode=NH01
+vBusinessArea=KAMIS
+# 시나리오 코드 명명규칙 --> RYYYYMMXXX(년도+월+Seq세자리)
+vRPAScenarioCode=R202002002
+# 시나리오 이름 명명규칙 --> 시나리오코드_시나리오네임
+vRPAScenarioName=R202002002_kamis
+# AA Command Delay Time 설정
+vDelayHigh=15
+vDelayMiddle=5
+vDelayLow=3
+# 시나리오 수행중 실행된 프로그램 Task Kill 정의, 반듯이 콤마뒤에 여백없이 붙여서 기술할것
+vKillProcessList=iexplore,excel,saplogon
+# Python Script 실행을 위한 실행 Python.exe 및 Source File의 Path 정의
+vPythonExePath=C:\Users\saint\Documents\Automation Anywhere Files\python_env\Scripts
+vPythonSourcePath=C:\Users\saint\Documents\Automation Anywhere Files\Automation Anywhere\My Scripts\Python Scripts
+#시나리오 관련자 Sender & Receiver Email ID
+# Sender는 통상 모든 시나리오에서 공통으로 적용
+vSenderEmail=
+#Receiver는 성공/실패 디버그용은 개발자, IM/PA만 사용하고 OP는 운영이관시 설정
+vReceiverEmail=
+# 시나리오 수행 결과를 받을 사람들, 즉 요청자 메일아이디와 결과 참조자에 개발자,IM,PA입력
+vResultMailSender=
+vResultMailReceivers=
+vResultMailCC=
+vResultMailBCC=
+
+#작업 디렉토리
+#vInputDir=
+#vOutputDir=
+#vTempDir=

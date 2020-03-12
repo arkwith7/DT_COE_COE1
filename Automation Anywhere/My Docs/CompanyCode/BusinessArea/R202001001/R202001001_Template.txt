@@ -12,8 +12,8 @@ vDelayLow=3
 # 시나리오 수행중 실행된 프로그램 Task Kill 정의, 반듯이 콤마뒤에 여백없이 붙여서 기술할것
 vKillProcessList=iexplore,excel,saplogon
 # Python Script 실행을 위한 실행 Python.exe 및 Source File의 Path 정의
-vPythonExePath=
-vPythonSourcePath=
+vPythonExePath=C:\Users\saint\Documents\Automation Anywhere Files\python_env\Scripts
+vPythonSourcePath=C:\Users\saint\Documents\Automation Anywhere Files\Automation Anywhere\My Scripts\Python Scripts
 #시나리오 관련자 Sender & Receiver Email ID
 # Sender는 통상 모든 시나리오에서 공통으로 적용
 vSenderEmail=

@@ -14,6 +14,9 @@
         <left>797</left>
       </location>
     </snapimageview>
+    <general>
+      <defaultnewtasklogicoption>0</defaultnewtasklogicoption>
+    </general>
   </Editor>
   <EventWatcher>
     <options>
@@ -34,7 +37,7 @@
       <information>False</information>
       <frmietoolbarleft>1126</frmietoolbarleft>
       <frmietoolbartop>764</frmietoolbartop>
-      <defaultrecorder>2</defaultrecorder>
+      <defaultrecorder>1</defaultrecorder>
     </general>
     <startuppages>
       <frmietoolbarleft>1279</frmietoolbarleft>
