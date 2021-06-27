@@ -1,0 +1,31 @@
+# Web Scraping
+beautifulsoup4
+lxml
+urllib3
+requests
+selenium
+pyperclip
+# Image and Text Data Analytics & Visibility
+matplotlib
+seaborn
+plotly
+imgaug
+Pillow
+opencv-contrib-python
+opencv-python
+wordcloud
+# pip install nbformat>=4.2.0
+nbformat
+utils
+pydot
+graphviz
+# Data Analytics
+numpy
+pandas
+scikit-learn
+captcha
+openpyxl
+xlrd
+pytesseract
+# Windows API
+pywin32

@@ -7,9 +7,11 @@ selenium
 pyperclip
 # Image and Text Data Analytics & Visibility
 matplotlib
+seaborn
 Pillow
 opencv-contrib-python
 opencv-python
+wordcloud
 # Data Analytics
 numpy
 pandas

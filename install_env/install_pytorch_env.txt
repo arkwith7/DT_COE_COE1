@@ -1,0 +1,21 @@
+pip install -r requirements.txt
+
+# 한글 자연어 처리를 위한 형태소 분석기
+pip install JPype1-0.7.1-cp36-cp36m-win_amd64.whl
+pip install konlpy
+
+# CUDA 10.1용 PyTorch GPU 설치
+pip3 install torch==1.7.0 torchvision==0.8.1 -f https://download.pytorch.org/whl/cu101/torch_stable.html
+# CUDA 10.2용 PyTorch GPU 설치
+pip3 install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+# CUDA 11.1.0용 PyTorch GPU 설치
+pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+pip install fastai
+
+# jupyter notebook 설치
+ - kernel 확인
+다음 명령어를 사용하면 현재 kernel에 대해 알 수 있다. 
+jupyter kernelspec list
+ - kernel 추가
+python -m ipykernel install --user --name pytorch_env --display-name "PyTorch"
